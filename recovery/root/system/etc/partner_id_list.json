@@ -1,0 +1,92 @@
+{
+    "partner_id_list": {
+        "lazada": {
+            "confname": "lazada.conf",
+            "trackid": "deviceTrackerId",
+            "channelid": "deviceChannelId",
+            "trackprop": "ro.trackingId.lazada",
+            "channelprop": "ro.channelId.lazada"
+        },
+        "booking": {
+            "confname": "booking.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingId.booking"
+        },
+        "tiktok1": {
+            "confname": "TikTok.conf",
+            "trackid": "deviceTrackerId",
+            "channelid": "deviceChannelId",
+            "trackprop": "ro.trackingId.com.ss.android.ugc.trill",
+            "channelprop": "ro.channelId.com.ss.android.ugc.trill"
+        },
+        "tiktok2": {
+            "confname": "TikTok.conf",
+            "trackid": "deviceTrackerIdeu",
+            "channelid": "deviceChannelIdeu",
+            "trackprop": "ro.trackingId.com.zhiliaoapp.musically",
+            "channelprop": "ro.channelId.com.zhiliaoapp.musically"
+        },
+        "zalo": {
+            "confname": "zalo.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingId.com.zing.zalo"
+        },
+        "zmp3": {
+            "confname": "zmp3.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingId.com.zing.mp3"
+        },
+        "bm": {
+            "confname": "bm.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingId.com.epi"
+        },
+        "1mg": {
+            "confname": "1mg.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingId.1mg"
+        },
+        "twitter": {
+            "confname": "twitter.conf",
+            "trackid": "deviceTrackerId",
+            "channelid": "deviceChannelId",
+            "trackprop": "ro.trackingId.com.twitter",
+            "channelprop": "ro.channelId.com.twitter"
+        },
+        "foodpanda": {
+            "confname": "foodpanda.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingId.com.global.foodpanda.android"
+        },
+        "Shopee1": {
+            "confname": "shopee_sg.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingid.com.shopee.sg"
+        },
+        "Shopee2": {
+            "confname": "shopee_my.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingid.com.shopee.my"
+        },
+        "Shopee3": {
+            "confname": "shopee_th.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingid.com.shopee.th"
+        },
+        "Shopee4": {
+            "confname": "shopee_ph.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingid.com.shopee.ph"
+        },
+        "Shopee5": {
+            "confname": "shopee_id.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingid.com.shopee.id"
+        },
+        "Shopee6": {
+            "confname": "shopee_vn.conf",
+            "trackid": "deviceTrackerId",
+            "trackprop": "ro.trackingid.com.shopee.vn"
+        }
+    }
+}
