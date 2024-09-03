@@ -104,6 +104,11 @@ PLATFORM_VERSION := 16.1.0
 #Vendor Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Logcat
+TARGET_USES_LOGD := true
+TWRP_INCLUDE_LOGCAT := true
+TWRP_EVENT_LOGGING := true
+
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
