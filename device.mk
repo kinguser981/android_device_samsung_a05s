@@ -4,12 +4,15 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
+#
 LOCAL_PATH := device/samsung/a05s
-
-
+#
+#
 # API level
 PRODUCT_SHIPPING_API_LEVEL := 34
+
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := current
 
 # Enable developer GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
