@@ -28,6 +28,8 @@
 import /init.recovery.device.rc
 import /init.recovery.qcom_decrypt.rc
 
+on early-init
+    start linkblobs
 
 on init
     write /sys/class/backlight/panel0-backlight/brightness 200
@@ -42,3 +44,13 @@ on property:ro.boot.usbcontroller=*
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+
+on boot
+    start health-hal-2-1
+
+service linkblobs /system/bin/linkblobs.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0
