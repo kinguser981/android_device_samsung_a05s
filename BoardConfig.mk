@@ -85,6 +85,14 @@ TARGET_COPY_OUT_SYSTEM_DLKM := system_dlkm
 BOARD_SYSTEM_KERNEL_MODULES := $(wildcard kernel/prebuilts/5.15/arm64/*.ko)
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
+BOARD_ROOT_EXTRA_FOLDERS := \
+    carrier \
+    efs \
+    omr \
+    optics \
+    prism \
+    spu
+
 # Platform
 TARGET_BOARD_PLATFORM := bengal
 
@@ -125,8 +133,10 @@ TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
 TWRP_EVENT_LOGGING := true
 
-# TWRP Configuration - Vendor Modules
-#TW_LOAD_VENDOR_BOOT_MODULES := true
+# Kernel Modules
+#TW_LOAD_VENDOR_MODULES := "*"
+TW_LOAD_VENDOR_BOOT_MODULES := true
+TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
 
 # TWRP Configuration - Excludes
 #TW_EXCLUDE_APEX := true
