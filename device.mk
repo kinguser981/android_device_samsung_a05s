@@ -16,7 +16,7 @@ LOCAL_PATH := device/samsung/a05s
 PRODUCT_TARGET_VNDK_VERSION := current
 
 # Enable developer GSI keys
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
