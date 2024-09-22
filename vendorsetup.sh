@@ -4,7 +4,6 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
-COMMON_LUNCH_CHOICES twrp_a05s-user
-COMMON_LUNCH_CHOICES twrp_a05s-userdebug
-COMMON_LUNCH_CHOICES twrp_a05s-eng
+add_lunch_combo twrp_a05s-user
+add_lunch_combo twrp_a05s-userdebug
+add_lunch_combo twrp_a05s-eng
