@@ -75,5 +75,5 @@
 /keyrefuge          f2fs      /dev/block/bootdevice/by-name/keyrefuge          flags=display=Keyrefuge;wipeingui
 
 # External storage
-/external_sd      	vfat	  	/dev/block/mmcblk1p1	/dev/block/mmcblk1		     flags=display="Micro SD Card";storage;wipeingui;removable
-/usb_otg	        	auto	  	/dev/block/sda1 		/dev/block/sda				       flags=display="USB OTG";storage;wipeingui;removable
+/external_sd        vfat      /dev/block/mmcblk1p1  /dev/block/mmcblk1         flags=display="Micro SD Card";storage;wipeingui;removable
+/usb_otg            auto      /dev/block/sda1      /dev/block/sda              flags=display="USB OTG";storage;wipeingui;removable
