@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service
 
 # API level
-PRODUCT_SHIPPING_API_LEVEL := 34
+PRODUCT_SHIPPING_API_LEVEL := 32
 
 # VNDK
 #PRODUCT_TARGET_VNDK_VERSION := current
@@ -42,13 +42,12 @@ PRODUCT_PACKAGES += \
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service \
-    android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-impl.recovery
+    android.hardware.health@2.1-impl
 
 # Boot Control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl.recovery \
-    android.hardware.boot@1.1-impl 
+    android.hardware.boot@1.1-impl
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
