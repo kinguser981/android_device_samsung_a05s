@@ -9,6 +9,15 @@ LOCAL_PATH := device/samsung/a05s
 #
 #
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-impl.recovery \
+    android.hardware.health@2.1-service
+
 # API level
 PRODUCT_SHIPPING_API_LEVEL := 34
 
