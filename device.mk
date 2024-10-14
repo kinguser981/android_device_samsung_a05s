@@ -15,7 +15,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
 
 # API level
@@ -29,7 +28,6 @@ PRODUCT_SHIPPING_API_LEVEL := 34
 
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
-    android.hardware.fastboot@1.1-impl-mock.recovery \
     fastbootd 
 
 PRODUCT_PACKAGES += \
@@ -42,12 +40,10 @@ PRODUCT_PACKAGES += \
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service \
-    android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-impl.recovery
+    android.hardware.health@2.1-impl
 
 # Boot Control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-impl.recovery \
     android.hardware.boot@1.1-impl 
 
 # Gatekeeper
