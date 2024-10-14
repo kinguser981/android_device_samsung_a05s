@@ -28,7 +28,6 @@ PRODUCT_SHIPPING_API_LEVEL := 32
 
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
-    android.hardware.fastboot@1.1-impl-mock.recovery \
     fastbootd 
 
 PRODUCT_PACKAGES += \
