@@ -14,6 +14,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from a05s device
 $(call inherit-product, device/samsung/a05s/device.mk)
+$(call inherit-product, device/samsung/a05s/touch_driver_board.mk)
 
 PRODUCT_DEVICE := a05s
 PRODUCT_NAME := twrp_a05s
